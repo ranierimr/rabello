@@ -1,0 +1,54 @@
+.about {
+}
+
+.about ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 25px 20px;
+}
+
+.about ul li:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.about ul li .avatar {
+  margin: 0 25px 0 0;
+}
+
+.about ul li:nth-child(even) .avatar {
+  margin: 0 0 0 25px;
+}
+
+.about ul li .avatar img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px #999;
+}
+
+.about ul li p .name {
+  display: block;
+}
+
+.about ul li p .role {
+  display: block;
+  /* font-size: 10px; */
+  font-style: italic;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+  .about ul li,
+  .about ul li:nth-child(even) {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about ul li .avatar,
+  .about ul li:nth-child(even) .avatar {
+    margin: 0;
+  }
+}
