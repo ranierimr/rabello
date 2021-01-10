@@ -36,11 +36,11 @@ function App() {
 
       <About title="Quem somos" />
 
-      <Office title="O Escritório" />
+      <Office title="Nossos Pilares" />
 
-      <Area />
+      <Area title="Nossos serviços" />
 
-      <Contact />
+      <Contact title="Contate-nos" />
     </div>
   );
 }
