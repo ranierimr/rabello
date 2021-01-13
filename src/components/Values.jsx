@@ -1,13 +1,13 @@
 import React from 'react';
-import './Office.css';
-import officeData from '../data/office';
+import './Values.css';
+import valuesData from '../data/values';
 
-function Office({ title }) {
+function Values({ title }) {
   return (
-    <div className="content office">
+    <div className="content values">
       <h2>{title}</h2>
       <ul>
-        {officeData.map((item) => (
+        {valuesData.map((item) => (
           <li>
             <p>
               <strong classname="title">{item.title}</strong>
@@ -20,4 +20,4 @@ function Office({ title }) {
   );
 }
 
-export default Office;
+export default Values;

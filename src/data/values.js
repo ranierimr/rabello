@@ -1,4 +1,4 @@
-const officeData = [
+const valuesData = [
   {
     title: 'SEGURANÇA',
     description:
@@ -25,4 +25,4 @@ const officeData = [
   },
 ];
 
-export default officeData;
+export default valuesData;

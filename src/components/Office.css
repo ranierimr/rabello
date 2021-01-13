@@ -1,2 +1,18 @@
 .office {
 }
+
+.office ul li {
+  border: 1px dashed red;
+  margin: 10px 0px;
+}
+
+.office ul li p .title {
+  display: block;
+}
+
+.office ul li p .description {
+  display: block;
+  font-style: italic;
+  color: #999;
+  margin-bottom: 5px;
+}

@@ -1,2 +1,13 @@
 .area {
 }
+
+.area ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 25px 20px;
+}
+
+.area ul li p .title {
+  display: block;
+}

@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: row;
   margin: 25px 20px;
+  border: 1px dashed blue;
 }
 
 .about ul li:nth-child(even) {
@@ -31,6 +32,7 @@
 
 .about ul li p .name {
   display: block;
+  border: 1px dashed red;
 }
 
 .about ul li p .role {
@@ -38,6 +40,7 @@
   font-style: italic;
   color: #999;
   margin-bottom: 5px;
+  border: 1px dashed orange;
 }
 
 @media (max-width: 600px) {
