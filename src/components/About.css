@@ -3,10 +3,10 @@
 
 .about ul li {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   flex-direction: row;
-  margin: 25px 20px;
-  border: 1px dashed blue;
+  margin: 25px 0px;
+  /* border: 1px dashed blue; */
 }
 
 .about ul li:nth-child(even) {
@@ -30,9 +30,14 @@
   box-shadow: 0 0 10px #999;
 }
 
+.about ul li p {
+  display: block;
+  /* border: 1px dashed purple; */
+}
+
 .about ul li p .name {
   display: block;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
 
 .about ul li p .role {
@@ -40,7 +45,7 @@
   font-style: italic;
   color: #999;
   margin-bottom: 5px;
-  border: 1px dashed orange;
+  /* border: 1px dashed orange; */
 }
 
 @media (max-width: 600px) {

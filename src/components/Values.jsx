@@ -10,7 +10,7 @@ function Values({ title }) {
         {valuesData.map((item) => (
           <li>
             <p>
-              <strong classname="title">{item.title}</strong>
+              <strong className="title">{item.title}</strong>
               {item.description}
             </p>
           </li>

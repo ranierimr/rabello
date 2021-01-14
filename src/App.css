@@ -12,7 +12,7 @@ p {
   margin: 0 0 0px 0;
 }
 
-/* .navbar {
+/*.navbar {
   position: fixed;
   top: 0;
   display: flex;
@@ -20,7 +20,7 @@ p {
   align-items: center;
   width: 100%;
   z-index: 5;
-} */
+}*/
 
 .header {
   display: flex;
@@ -32,12 +32,13 @@ p {
 }
 
 .logo {
-  width: calc(100% - 400px);
+  width: calc(100% - 800px);
   min-width: 300px;
-  height: 248px;
+  height: 150px;
   background: url('./assets/images/logo.png') no-repeat center center;
   background-size: contain;
   text-indent: -9999px;
+  border: 1px dashed white;
 }
 
 .content {
@@ -50,7 +51,7 @@ p {
 .content h2 {
   margin-bottom: 10px;
   text-align: center;
-  border: 1px dashed green;
+  /* border: 1px dashed green; */
 }
 
 @media (max-width: 600px) {

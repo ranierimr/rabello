@@ -21,7 +21,7 @@ function About({ title }) {
             </div>
             <p>
               <strong className="name">{item.name}</strong>
-              {item.role && <span className="role">{item.role}</span>}
+              <span className="role">{item.role}</span>
               {item.description}
             </p>
           </li>

@@ -1,0 +1,19 @@
+.values {
+}
+
+.values ul li {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px;
+  /* border: 1px dashed blue; */
+}
+
+.values ul li p {
+  display: block;
+  /* border: 1px dashed purple; */
+}
+
+.values ul li p .title {
+  display: block;
+  /* border: 1px dashed red; */
+}

@@ -12,16 +12,11 @@ function App() {
       <div className="header">
         <h1 className="logo">Rabello & Rabello Sociedade de Advogados</h1>
       </div>
-
       <Office title="O Escritório" />
-
       <About title="Quem Somos" />
-
       <Values title="Nossos Valores" />
-
       <Area title="Onde Atuamos" />
-
-      <Contact title="Contate-nos" />
+      <Contact title="Entre em Contato" />
     </div>
   );
 }

@@ -9,10 +9,7 @@ function Office({ title }) {
       <ul>
         {officeData.map((item) => (
           <li>
-            <p>
-              <strong classname="title">{item.title}</strong>
-              {item.description}
-            </p>
+            <p>{item.description}</p>
           </li>
         ))}
       </ul>

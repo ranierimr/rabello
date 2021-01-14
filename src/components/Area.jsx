@@ -10,7 +10,7 @@ function Area({ title }) {
         {areaData.map((item) => (
           <li>
             <p>
-              <strong classname="title">{item.title}</strong>
+              <strong className="title">{item.title}</strong>
               {item.description}
             </p>
           </li>

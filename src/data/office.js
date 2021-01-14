@@ -1,27 +1,22 @@
 const officeData = [
   {
-    title: 'SEGURANÇA',
     description:
-      'Muitos clientes chegam receosos e vulneráveis, por se tratar de aspectos sensíveis como jurídico, tributário, sucessório e contencioso. Porém, deixamos claro quais são todas as etapas do trabalho e mostramos que, atuando com soluções que obedecem à legislação e normas vigentes, o processo tende a se mostrar vantajoso e/ou benéfico para o cliente.',
+      'Especializado em Serviços de Consultoria e Planejamento Tributário, Planejamento Sucessório, Direito Societário & Compliance, Contencioso Administrativo e Judicial, realizados por uma equipe de advogados focados em atender os clientes de forma íntegra e transparente, garantindo segurança e eficiência em cada trabalho realizado.',
   },
   {
-    title: 'TRANSPARÊNCIA',
     description:
-      'Cuidamos para que os clientes tenham conhecimento de todos os detalhes de cada procedimento e solução, do início ao fim, estando presente nas tomadas das melhores decisões para as diversas situações.',
+      'Para nós, da Rabello & Rabello Sociedade de Advogados, é primordial conhecer a atividade de cada cliente, entender seu papel no mercado e os pontos críticos para a plena realização de seu projeto. Com isso, agimos em conjunto, de forma interdisciplinar, construindo soluções inovadoras para gerar os melhores resultados.',
   },
   {
-    title: 'EFICIÊNCIA',
     description:
-      'Somos determinados a resolver os problemas dos nossos clientes com soluções práticas, que melhor atendam às necessidades e diversidades, prezando pelo menor custo e sem quaisquer outras onerosidades.',
+      '“Buscamos criar um elo de parceria com nossos clientes. Isso nos permite apoiá-los e fomentar o crescimento em conjunto. Nossa missão é cuidar daquilo que é mais valioso para eles dentro de um ambiente seguro, confiável e ético.” Gustavo Vescovi Rabello, advogado e sócio',
   },
   {
-    title: 'HONESTIDADE',
-    description: 'Todos os procedimentos e soluções propostos estão em compliance.',
+    description: 'Sabemos que um cliente é muito mais que um cliente: é um parceiro único!',
   },
   {
-    title: 'INTEGRIDADE',
     description:
-      'Para nós, este é um valor inerente ao caráter do profissional que atua na Rabello & Rabello Sociedade de Advogados.',
+      'Uma das grandes preocupações da Rabello & Rabello Sociedade de Advogados é cuidar para que cada cliente seja atendido da forma que realmente precisa, entendendo suas diversidades e atendendo suas necessidades.',
   },
 ];
 

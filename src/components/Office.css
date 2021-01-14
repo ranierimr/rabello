@@ -2,12 +2,9 @@
 }
 
 .office ul li {
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
   margin: 10px 0px;
-}
-
-.office ul li p .title {
-  display: block;
+  text-align: justify;
 }
 
 .office ul li p .description {

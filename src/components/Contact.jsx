@@ -1,10 +1,10 @@
 import React from 'react';
 import './Contact.css';
 
-function Contact() {
+function Contact({ title }) {
   return (
     <div className="content contact">
-      <h2>Contate-nos</h2>
+      <h2>{title}</h2>
     </div>
   );
 }
